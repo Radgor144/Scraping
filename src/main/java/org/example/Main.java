@@ -27,7 +27,7 @@ public class Main {
 
         CompletableFuture<List<JobData>> watek2 = CompletableFuture.supplyAsync(() -> {
             try {
-                jobList.addAll(getBuldog("krakow", "java", "medium"));
+                jobList.addAll(getBuldog("krakow", "java", "intern"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
